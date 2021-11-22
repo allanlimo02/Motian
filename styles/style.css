@@ -1,0 +1,110 @@
+body{
+    font-family: poppins;
+    overflow-x: hidden;
+    
+}
+.nav-item{
+    background-color: #000080;
+    padding: 30px;
+    color: wheat;
+    text-align: center;
+    margin-top: -10px;
+    font-size: 25px;
+}
+.nav-item:hover{
+    color: #000080;
+    background-color: wheat;
+}
+/*  */
+.landing{
+    background-image: url(../assets/art-landing.jpg);
+    margin-top: -20px;
+}
+.clm1{
+    height: 800px;
+    background-color: rgba(0, 50, 0, 0.9);
+    text-align: center;
+    color: wheat;
+}
+.clm1 h1{
+    padding-top: 200px;
+    font-size: 80px;
+}
+#aboutus{
+    background-image:url(../assets/aboutsection.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+.mission{
+    background-image: url(../assets/missionBg.jpg);
+    padding: 30px;
+}
+
+.mission-a{
+    background-color: rgba(0, 50, 0, 0.6);
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+.topbar{
+    background-color: rgba(20, 0, 0, 0.5);
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+}
+button{
+    color: white;
+    background-color: green;
+    border: transparent;
+    border-radius: 5px;
+}
+#danielle{
+    border-radius: 50%;
+    height: 400px;
+    width: 350px;
+}
+.ourteam{
+    text-align: center;
+}.products{
+    text-align: center;
+}
+#products{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    text-align: start;
+}
+#buy{
+    background-color: #477800;
+    color: white;
+    justify-content: space-around;
+}
+#art{
+    border-radius: 30px;
+}
+
+
+
+/* Footer */
+footer{
+    background-color: rgba(0, 50, 0, 0.9);
+    text-align: center;
+    color: wheat;
+    padding-bottom: 20px;
+}
+.foot1{
+    border-right: white solid 1px;
+    padding: 50px;
+}
